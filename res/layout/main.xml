@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
-</LinearLayout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/background">
+	<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingTop="80dip">
+	<LinearLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout2"
+		android:orientation="vertical">
+		<FrameLayout android:id="@+id/frameLayout1" android:layout_width="fill_parent" android:layout_height="50dip"></FrameLayout>
+		<Button android:layout_height="wrap_content" android:id="@+id/button1"
+			android:text="Button" android:layout_width="wrap_content"></Button>
+		<Button android:text="Button" android:id="@+id/button2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Button" android:id="@+id/button3"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Button" android:id="@+id/button4"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Button" android:id="@+id/button5"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Button" android:id="@+id/button6"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<Button android:text="Button" android:id="@+id/button7"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+	</ScrollView>
+	<ImageView android:layout_width="wrap_content"
+		android:layout_alignParentTop="true" android:padding="0dip" android:background="@drawable/menu_top" android:layout_height="wrap_content"></ImageView>
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal" android:padding="20dip">
+		<ImageView android:layout_width="wrap_content" android:src="@drawable/icon"
+			android:layout_height="wrap_content" android:padding="10dip"></ImageView>
+		<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1" android:src="@drawable/logo"></ImageView>
+	</LinearLayout>
+</RelativeLayout>
