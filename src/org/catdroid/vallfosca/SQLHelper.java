@@ -48,7 +48,7 @@ public class SQLHelper
         DBHelper = new DatabaseHelper(context);
     }
  
-    private static class DatabaseHelper extends SQLiteOpenHelper 
+    private class DatabaseHelper extends SQLiteOpenHelper 
     {
         DatabaseHelper(Context context) 
         {
@@ -59,6 +59,28 @@ public class SQLHelper
         public void onCreate(SQLiteDatabase db) 
         {
             db.execSQL(DATABASE_CREATE);
+            // POI insertion into Database
+            insertPOI(42.47361, 0.9919, 0.0, "Capdella", 0.0, 1, "webpage");
+            insertPOI(42.46682, 0.9908, 0.0, "La Central de Capdella", 0.0, 1, "webpage");
+            insertPOI(42.45551, 0.9879, 0.0, "Espui", 0.0, 1, "webpage");
+            insertPOI(42.44270, 0.9920, 0.0, "Aiguabella", 0.0, 1, "webpage");
+            insertPOI(42.42165, 0.9821, 0.0, "La Torre de Capdella", 0.0, 1, "webpage");
+            insertPOI(42.40479, 0.9742, 0.0, "Molinos", 0.0, 1, "webpage");
+            insertPOI(42.40361, 0.9650, 0.0, "Astell", 0.0, 1, "webpage");
+            insertPOI(42.40212, 0.9868, 0.0, "Mont-rós", 0.0, 1, "webpage");
+            insertPOI(42.39811, 0.9888, 0.0, "Pobellà", 0.0, 1, "webpage");
+            insertPOI(42.39671, 0.9823, 0.0, "Paüls", 0.0, 1, "webpage");
+            insertPOI(42.39843, 0.9430, 0.0, "Aguiró", 0.0, 1, "webpage");
+            insertPOI(42.39468, 0.9497, 0.0, "Oveix", 0.0, 1, "webpage");
+            insertPOI(42.38698, 0.9542, 0.0, "Castell-estaó", 0.0, 1, "webpage");
+            insertPOI(42.38174, 0.9649, 0.0, "La Plana de Mont-rós", 0.0, 1, "webpage");
+            insertPOI(42.37429, 0.9676, 0.0, "Beranui", 0.0, 1, "webpage");
+            insertPOI(42.37110, 0.9486, 0.0, "Antist", 0.0, 1, "webpage");
+            insertPOI(42.35866, 0.9385, 0.0, "Estavill", 0.0, 1, "webpage");
+            insertPOI(42.35032, 0.9861, 0.0, "Envall", 0.0, 1, "webpage");
+            insertPOI(42.34401, 0.9601, 0.0, "La Pobleta de Bellveí", 0.0, 1, "webpage");
+            insertPOI(42.32526, 0.9385, 0.0, "Senterada", 0.0, 1, "webpage");
+
         }
  
         @Override
@@ -103,7 +125,7 @@ public class SQLHelper
      * @param webpage URL of webpage associated to POI
      * @return ID of successfully inserted POI
      */
-	public long insertPOI(float lat, float lng, float elevation, String title, float distance, int has_detail_page, String webpage ) {
+	public long insertPOI(double lat, double lng, double elevation, String title, double distance, int has_detail_page, String webpage ) {
 		//add new POI to the table
 		ContentValues rowValues = new ContentValues();
 		rowValues.put(SQLHelper.KEY_LAT, lat);
@@ -191,7 +213,7 @@ public class SQLHelper
      * @param webpage URL of webpage associated to POI
      * @return ID of successfully updated POI
      */
-	public boolean updatePOI(long rowId, float lat, float lng, float elevation, String title, float distance, int has_detail_page, String webpage ) {
+	public boolean updatePOI(long rowId, double lat, double lng, double elevation, String title, double distance, int has_detail_page, String webpage ) {
 		ContentValues rowValues = new ContentValues();
 		rowValues.put(SQLHelper.KEY_LAT, lat);
 		rowValues.put(SQLHelper.KEY_LNG, lng);
