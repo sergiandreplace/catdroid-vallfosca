@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">La Vall Fosca</string>
+	<string name="app_name">La Vall Fosca</string>
+	<string name="lang_catalan">Català</string>
+	<string name="lang_spanish">Castellano</string>
+	<string name="lang_english">English</string>
+	<string name="lang_title">Seleccioneu l\'idioma d\'ús\nSeleccione el idioma
+		de uso\nSelect the language to use</string>
+	<string name="option_info">Informació de La Vall Fosca</string>
+	<string name="option_routes">Itineraris</string>
+	<string name="option_virtual">La Vall Fosca Virtual</string>
+	<string name="option_municipi">El municipi</string>
+	<string name="option_tele">Telefèric</string>
+	<string name="option_park">Parc Nacional</string>
+	<string name="option_museum">Museu</string>
+	<string name="option_route_1">Pobellà - Sant Quiri</string>
+	<string name="option_route_2">Aguiró - Coll d\'Oli</string>
+	<string name="option_route_3">Espuí - Fillà - Capdella</string>
+	<string name="option_route_4">Capdella - Port de Rus</string>
+	<string name="option_route_5">etc...</string>
 </resources>

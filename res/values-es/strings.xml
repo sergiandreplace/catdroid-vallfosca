@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">La Vall Fosca (ES)</string>
+	<string name="lang_catalan">Català</string>
+	<string name="lang_spanish">Castellano</string>
+	<string name="lang_english">English</string>
+	<string name="lang_title">Seleccioneu l\'idioma d\'ús\nSeleccione el idioma de uso\nSelect the language to use</string>
+</resources>
