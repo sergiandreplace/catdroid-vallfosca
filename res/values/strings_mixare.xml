@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_mixare">Mixare</string>
+    <string name="search_hint">Buscar localitzación</string>
+    
+    <string name="N">N</string>
+    <string name="NE">NE</string>
+    <string name="E">E</string>
+    <string name="SE">SE</string>
+    <string name="S">S</string>
+    <string name="SW">SO</string>
+    <string name="W">O</string>
+    <string name="NW">NO</string>
+    
+
+    <string name="empty_list">Ho sentim, \nno tenim informació de llocs \ndisponibles en aquest radius.\nTorna-ho a provar amb un radi més ample.</string>
+	<string name="option_not_available">Treballant-hi... \nEstarà llest properament!</string>
+	
+	<string name="license">Copyright (C) 2010- Peer internet solutions 
+		\n\nThis program is free software: 	you can redistribute it and/or modify it under the terms of the 
+		GNU General Public License as published by the Free Software Foundation, either version 3 of the License, 
+		or at your option) any later version. 
+		\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even 
+		the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public 
+		License for more details. 
+		\n\n You should have received a copy of the GNU General Public License along with this program. 
+		If not, see &lt;http://www.gnu.org/licenses/&gt;
+	</string>
+	
+	<string name="menu_item_1">Origen de dades</string>
+	<string name="menu_item_2">Llistar elements</string>
+	<string name="menu_item_3">Veure mapa</string>
+	<string name="menu_item_4">Radi d\'acció</string>
+	<string name="menu_item_5">Buscar</string>
+	<string name="menu_item_6">Informació</string>
+	<string name="menu_item_7">Llicencia</string>
+	
+	
+	<string name="connection_error_dialog">No es pot accedir a les dades! \nContacta amb els desenvolupadors.</string>
+	<string name="connection_error_dialog_button1">Tornar-hi</string>
+	<string name="connection_error_dialog_button2">Configurar</string>
+	<string name="connection_error_dialog_button3">Tancar</string>
+	
+	<string name="connection_GPS_dialog_text">No es pot llegir el GPS... \nSi continues es posible que la informació mostrada 
+		\nno sigui al lloc correcte.</string>
+	<string name="connection_GPS_dialog_button1">Continuar</string>
+	<string name="connection_GPS_dialog_button2">Tancar</string>
+	
+	<string name="no_website_available">No hi ha més informació</string>
+	
+	<string name="license_title">Llicencia</string>
+	<string name="close_button">Tancar</string>
+	<string name="general_info_title">Informació general</string>
+	
+	<string name="general_info_text">Informació del GPS: </string>
+	<string name="longitude">Longitud: </string>
+	<string name="latitude">Latitud: </string>
+	<string name="altitude">Altitud: </string>
+	<string name="speed">Velocitat: </string>
+	<string name="accuracy">Accuracy: </string>
+	<string name="gps_last_fix">Últim valor del GPS: </string>
+	
+	<string name="map_menu_normal_mode">Mapa</string>
+	<string name="map_menu_satellite_mode">Satel·lit</string>
+	<string name="map_menu_cam_mode">Càmara</string>
+	<string name="map_my_location">La meva posició</string>
+	
+	<string name="map_current_location_click">Ara ets a</string>
+	
+	<string name="data_source_change_wikipedia">Changed to Wikipedia as data source</string>
+	<string name="data_source_change_twitter">Changed to Twitter as data source</string>
+	<string name="data_source_change_buzz">Changed to Google Buzz as data source</string>
+	<string name="data_source_change_osm">Changed to OpenStreetMap as data source</string>
+	
+	<string name="search_failed_notification">No s\'han trobat resultats</string>
+	<string name="source_openstreetmap">Stations around</string>
+	
+	<string name="search_active_1">Search on data source</string>
+	<string name="search_active_2">. Touch to terminate search</string>
+	<string name="download_error">Error while downloading</string>
+	<string name="download_received">Received data from</string>
+	
+</resources>
