@@ -14,13 +14,13 @@ public class Main extends Activity implements OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
+ 
+        findViewById(R.id.option_villages).setOnClickListener(this);
+//        findViewById(R.id.option_routes).setOnClickListener(this);
+//        findViewById(R.id.option_virtual).setOnClickListener(this);
+               
 //        languageManager=new LanguageManager(this);
-        
-        findViewById(R.id.option_info).setOnClickListener(this);
-        findViewById(R.id.option_routes).setOnClickListener(this);
-        findViewById(R.id.option_virtual).setOnClickListener(this);
-        
+        FileManager.saveas(R.raw.vallfosca, "//sdcard/vallfosca/", "vallfosca.json", this);
        
     }
 	
@@ -28,26 +28,15 @@ public class Main extends Activity implements OnClickListener {
 	{
 		switch (v.getId())
 		{
-			case R.id.option_info:
-				View group_info = findViewById(R.id.group_info);
-				if (group_info.getVisibility()==View.VISIBLE) 
-					group_info.setVisibility(View.GONE);
-				else 
-					group_info.setVisibility(View.VISIBLE);
-				break;
-			case R.id.option_routes:
-				View group_routes = findViewById(R.id.group_routes);
-				if (group_routes.getVisibility()==View.VISIBLE) 
-					group_routes.setVisibility(View.GONE);
-				else 
-					group_routes.setVisibility(View.VISIBLE);
-				break;
-			case R.id.option_virtual:
+			
+			case R.id.option_villages:
 		        Intent i = new Intent();
 		        i.setAction(Intent.ACTION_VIEW);      
-		        //i.setDataAndType(Uri.parse("file://sdcard/vallfosca/vallfosca.json"), "application/mixare-json");
-		        i.setDataAndType(Uri.parse("android.resource://org.catdroid.vallfosca/raw/vallfosca"), "application/mixare-json");
+		       
+		        i.setDataAndType(Uri.parse("file://sdcard/vallfosca/vallfosca.json"), "application/mixare-vallfosca-json");
+//		        i.setDataAndType(Uri.parse("org.catdroid.vallfosca:raw/vallfosca"), "application/mixare-json");
 		        startActivity(i);
+
 		        break;
 			
 		}
