@@ -20,8 +20,6 @@ public class Main extends Activity implements OnClickListener {
         findViewById(R.id.option_info).setOnClickListener(this);
         findViewById(R.id.option_routes).setOnClickListener(this);
         findViewById(R.id.option_virtual).setOnClickListener(this);
-               
-        languageManager=new LanguageManager(this);
         
        
     }
@@ -47,7 +45,8 @@ public class Main extends Activity implements OnClickListener {
 			case R.id.option_virtual:
 		        Intent i = new Intent();
 		        i.setAction(Intent.ACTION_VIEW);      
-		        i.setDataAndType(Uri.parse("file://sdcard/vallfosca/json_demo.txt"), "application/mixare-json");
+		        //i.setDataAndType(Uri.parse("file://sdcard/vallfosca/vallfosca.json"), "application/mixare-json");
+		        i.setDataAndType(Uri.parse("android.resource://org.catdroid.vallfosca/raw/vallfosca"), "application/mixare-json");
 		        startActivity(i);
 		        break;
 			
