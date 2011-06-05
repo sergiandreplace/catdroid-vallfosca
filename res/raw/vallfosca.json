@@ -1,0 +1,26 @@
+{
+    "status": "OK",
+    "num_results": 20,
+    "results": [
+        {"id": "1", "lat": "42.47361", "lng": "0.9919", "elevation": "1420", "title": "Capdella", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Capdella"},
+        {"id": "2", "lat": "42.46682", "lng": "0.9908", "elevation": "1265", "title": "La Central de Capdella", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Central_de_Capdella"},
+        {"id": "3", "lat": "42.45551", "lng": "0.9879", "elevation": "1275", "title": "Espui", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Espui"},
+        {"id": "4", "lat": "42.44270", "lng": "0.9920", "elevation": "1217", "title": "Aiguabella", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Aiguabella"},
+        {"id": "5", "lat": "42.42165", "lng": "0.9821", "elevation": "1075", "title": "La Torre de Capdella", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Torre_de_Capdella"},
+        {"id": "6", "lat": "42.40479", "lng": "0.9742", "elevation": "985", "title": "Molinos", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Molinos"},
+        {"id": "7", "lat": "42.40361", "lng": "0.9650", "elevation": "1157", "title": "Astell", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Astell"},
+        {"id": "8", "lat": "42.40212", "lng": "0.9868", "elevation": "1210", "title": "Mont-rós", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Mont-r%C3%B3s_(la_Torre_de_Capdella)"},
+        {"id": "9", "lat": "42.39811", "lng": "0.9888", "elevation": "1233", "title": "Pobellà", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Pobell%C3%A0"},
+        {"id": "10", "lat": "42.39671", "lng": "0.9823", "elevation": "1138", "title": "Paüls", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Pa%C3%BCls"},
+        {"id": "11", "lat": "42.39843", "lng": "0.9430", "elevation": "1361", "title": "Aguiró", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Aguir%C3%B3"},
+        {"id": "12", "lat": "42.39468", "lng": "0.9497", "elevation": "1230", "title": "Oveix", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Oveix"},
+        {"id": "13", "lat": "42.38698", "lng": "0.9542", "elevation": "1125", "title": "Castell-estaó", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Castell-esta%C3%B3"},
+        {"id": "14", "lat": "42.38174", "lng": "0.9649", "elevation": "890", "title": "La Plana de Mont-rós", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/La_Plana_de_Mont-r%C3%B3s"},
+        {"id": "15", "lat": "42.37429", "lng": "0.9676", "elevation": "1044", "title": "Beranui", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Beranui"},
+        {"id": "16", "lat": "42.37110", "lng": "0.9486", "elevation": "1235", "title": "Antist", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Antist"},
+        {"id": "17", "lat": "42.35866", "lng": "0.9385", "elevation": "1180", "title": "Estavill", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Estavill"},
+        {"id": "18", "lat": "42.35032", "lng": "0.9861", "elevation": "1080", "title": "Envall", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Envall"},
+        {"id": "19", "lat": "42.34401", "lng": "0.9601", "elevation": "1180", "title": "La Pobleta de Bellveí", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/La_Pobleta_de_Bellve%C3%AD"},
+        {"id": "20", "lat": "42.32526", "lng": "0.9385", "elevation": "729", "title": "Senterada", "has_detail_page":"1", "webpage": "http://ca.m.wikipedia.org/wiki/Senterada"},
+    ]
+}
